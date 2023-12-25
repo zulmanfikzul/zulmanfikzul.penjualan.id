@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pilih Metode Pembayaran</title>
+    <!-- Tambahkan tautan ke file Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h2 class="fw-light">Pilih Metode Pembayaran</h2>
+
+      <!-- Formulir untuk memilih metode pembayaran -->
+      <form action="sukses.html">
+        <div class="form-group">
+          <label class="fw-bold">Pilih Metode Pembayaran:</label>
+
+          <select class="form-control" id="metodePembayaran" name="metodePembayaran">
+            <option value="visa">Kartu Visa</option>
+            <option value="mastercard">Kartu MasterCard</option>
+            <option value="paypal">PayPal</option>
+            <option value="transfer">Transfer Bank</option>
+          </select>
+        </div>
+
+        <!-- Gambar yang terkait dengan metode pembayaran -->
+        <div class="form-group">
+          <img src="img/visa.png" alt="Logo Visa" class="img-fluid" height="70" width="70" />
+          <img src="img/kartu.png" alt="Logo Visa" class="img-fluid" height="70" width="70" />
+          <img src="img/paypal.png" alt="Logo Visa" class="img-fluid" height="70" width="70" />
+          <img src="img/tranfer.png" alt="Logo Visa" class="img-fluid" height="70" width="70" />
+        </div>
+
+        <!-- Tombol untuk mengirim formulir -->
+        <button type="submit" class="btn btn-primary">Lanjutkan Pembayaran</button>
+      </form>
+    </div>
+
+    <!-- Tambahkan tautan ke file Bootstrap JS dan Popper.js (diperlukan untuk beberapa komponen Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
